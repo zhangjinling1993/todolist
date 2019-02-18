@@ -10,18 +10,6 @@ class List extends Component {
         this.handleDelete = this.handleDelete.bind(this);
     }
 
-    componentDidMount() {
-
-    }
-
-    componentWillReceiveProps(nextProps) {
-    
-    }
-
-    componentDidUpdate() {
-        
-    }
-
     handleChangeLists = (e, index) => {
         let currIndex = index;
         this.props.lists[currIndex].done = !this.props.lists[currIndex].done;

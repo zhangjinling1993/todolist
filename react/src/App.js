@@ -15,14 +15,6 @@ class App extends Component {
     }
   }
 
-  componentDidMount() {
-
-  }
-
-  componentWillReceiveProps() {
-
-  }
-
   handleFresh = (obj) => {
     this.setState({
       lists: obj
